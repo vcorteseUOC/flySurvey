@@ -1,0 +1,211 @@
+{
+  "@context" : {
+    "hasTitle" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasPrice" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasPrice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Economy" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Economy"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "hasAircraft" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAircraft",
+      "@type" : "@id"
+    },
+    "model" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#model",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isFamily" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isFamily",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Couple" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Couple"
+    },
+    "Leisure" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Leisure"
+    },
+    "isLeisure" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isLeisure",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Ground" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Ground"
+    },
+    "hasCompanyName" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCompanyName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isRecommended" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isRecommended",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasComment" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasComment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maker" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#maker",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Destination"
+    },
+    "airportInfo" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airportInfo"
+    },
+    "Solo" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Solo"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Origin"
+    },
+    "ValueForMoney" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#ValueForMoney"
+    },
+    "FirstClass" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FirstClass"
+    },
+    "InflightEntertainment" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#InflightEntertainment"
+    },
+    "Business" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Business"
+    },
+    "Airport" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airport"
+    },
+    "Date" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Date"
+    },
+    "Traveller" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Traveller"
+    },
+    "Premium" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Premium"
+    },
+    "hasDestiny" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDestiny",
+      "@type" : "@id"
+    },
+    "evaluatedBy" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedBy",
+      "@type" : "@id"
+    },
+    "hasOfficialName" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOfficialName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personalInfo" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#personalInfo"
+    },
+    "isBusiness" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isBusiness",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Family" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Family"
+    },
+    "Seat" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Seat"
+    },
+    "Survey" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Survey"
+    },
+    "airCraftInfo" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#airCraftInfo"
+    },
+    "isVerified" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isVerified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Aircraft"
+    },
+    "FlightDate" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FlightDate"
+    },
+    "tripInfo" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#tripInfo",
+      "@type" : "@id"
+    },
+    "evaluatedTrip" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#evaluatedTrip",
+      "@type" : "@id"
+    },
+    "hasCity" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasMaxRating" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasMaxRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Airline"
+    },
+    "CabinStaff" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#CabinStaff"
+    },
+    "surveyCategory" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyCategory",
+      "@type" : "@id"
+    },
+    "SurveyCategory" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#SurveyCategory"
+    },
+    "hasDateFlown" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasDateFlown",
+      "@type" : "@id"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasOrigin",
+      "@type" : "@id"
+    },
+    "hasAirline" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasAirline",
+      "@type" : "@id"
+    },
+    "Trip" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Trip"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Internet" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#Internet"
+    },
+    "surveyInfo" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#surveyInfo"
+    },
+    "isDateFlown" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#isDateFlown",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasCountry" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#hasCountry",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FoodAndBeverages" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#FoodAndBeverages"
+    },
+    "PublishDate" : {
+      "@id" : "http://www.semanticweb.org/swb/ontologies/2024/3/fly_survey_ontology#PublishDate"
+    }
+  }
+}
